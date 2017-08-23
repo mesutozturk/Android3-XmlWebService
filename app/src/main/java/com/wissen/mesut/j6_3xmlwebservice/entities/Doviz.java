@@ -1,10 +1,12 @@
 package com.wissen.mesut.j6_3xmlwebservice.entities;
 
+import java.io.Serializable;
+
 /**
  * Created by Mesut on 23.08.2017.
  */
 
-public class Doviz {
+public class Doviz implements Serializable {
     private String birim;
     private String isim;
     private double alis;
